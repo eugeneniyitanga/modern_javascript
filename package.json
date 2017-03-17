@@ -1,0 +1,31 @@
+{
+  "name": "modern_javascript",
+  "version": "1.0.0",
+  "description": "trying modern_javascript in practices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "build": "webpack",
+    "server": "webpack-dev-server --hot --inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eugeneniyitanga/modern_javascript.git"
+  },
+  "author": "Eugene Niyitanga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eugeneniyitanga/modern_javascript/issues"
+  },
+  "homepage": "https://github.com/eugeneniyitanga/modern_javascript#readme",
+  "dependencies": {
+    "moment": "^2.17.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
